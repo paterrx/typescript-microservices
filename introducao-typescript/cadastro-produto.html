@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de produto</title>
+  </head>
+  <body>
+    <form id="frmCadastrar" action="javascript:void(0)">
+      <p>
+        <label for="produto">Produto:</label>
+        <input type="text" id="produto" name="produto" />
+      </p>
+      <p>
+        <label for="cor">Cor:</label>
+        <select name="cor" id="cor">
+          <option value="">Selecione a cor</option>
+        </select>
+      </p>
+      <p>
+        <label for="tamanho">Tamanho:</label>
+        <select id="tamanho" name="tamanho">
+          <option value="">Selecione o tamanho</option>
+        </select>
+      </p>
+      <p>
+        <label for="preco">Preco:</label>
+        <input type="number" id="preco" name="preco" />
+      </p>
+      <input value="Salvar" type="button" onclick="save()" />
+      <input value="Cancelar" type="button" onclick="save()" />
+    </form>
+    <hr />
+    <h2>Listar produtos</h2>
+    <table id="tblProdutos" border="1">
+      <thead>
+        <th>id</th>
+        <th>Produto</th>
+        <th>Cor</th>
+        <th>Tamanho</th>
+        <th>Preco</th>
+        <th colspan="2">Acoes</th>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>5</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    <script src="cadastro-produto.js" defer></script>
+  </body>
+</html>
