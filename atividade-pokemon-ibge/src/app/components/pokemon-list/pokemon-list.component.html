@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+<div class="container mt-4">
+  <h2 class="my-5">Lista dos primeiros 20 Pokémon da Pokedex</h2>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let pokemon of pokemons">
+      <div class="d-flex justify-content-around align-items-center">
+        <div>
+          <span class="badge bg-dark">{{pokemon.id}}</span>
+        </div>
+        <div>
+          <span class="px-3 text-uppercase">{{pokemon.name}}</span>
+        </div>
+        <img [src]="pokemon.imageUrl" alt="{{pokemon.name}}" width="100" height="100">
+      </div>
+    </li>
+  </ul>
+</div>

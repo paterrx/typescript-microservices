@@ -1,0 +1,16 @@
+{
+  "fornecedor": [
+    {
+      "id": "TsVQOEp0",
+      "nome": "Homem de Ferro",
+      "endereco": "Vingadores, 95",
+      "telefone": "4002"
+    },
+    {
+      "id": "xys9wj9",
+      "nome": "Thor",
+      "endereco": "Vingadores",
+      "telefone": "1203"
+    }
+  ]
+}
