@@ -1,0 +1,22 @@
+<div class="container mt-3">
+  <h2 class="my-5">Editar Fornecedor</h2>
+  <form [formGroup]="fornecedorForm" (ngSubmit)="editar()">
+    <input type="hidden" formControlName="id">
+    <div class="mb-3 mt-3">
+      <label for="nome" class="form-label">Nome:</label>
+      <input type="nome" class="form-control" id="nome" placeholder="insira seu nome" name="nome" formControlName="nome">
+    </div>
+    <div class="mb-3">
+      <label for="endereco" class="form-label">Endereço:</label>
+      <input type="endereco" class="form-control" id="endereco" placeholder="Insira seu endereço" name="endereco" formControlName="endereco">
+    </div>
+    <div class="mb-3">
+      <label for="telefone" class="form-label">Telefone:</label>
+      <input type="telefone" class="form-control" id="telefone" placeholder="Insira seu telefone" name="telefone" formControlName="telefone">
+    </div>
+    <p class="row justify-content-between mt-5">
+      <button type="submit" class="btn btn-success col-2">Salvar</button>
+      <button type="button" class="btn btn-dark col-2"><a href="/listafornecedor" class="text-light text-decoration-none">Voltar</a></button>
+    </p>
+  </form>
+</div>

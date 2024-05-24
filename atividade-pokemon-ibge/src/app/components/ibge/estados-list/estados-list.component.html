@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="container mt-4">
+  <h2 class="my-5">Tabela de estados com API consumida</h2>
+  <table class="table table-striped table-dark table-bordered table-hover">
+    <thead>
+      <tr class="table-dark">
+        <th class="text-white">ID</th>
+        <th class="text-white">Sigla</th>
+        <th class="text-white">Nome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let estado of estados">
+        <td>{{estado.id}}</td>
+        <td>{{estado.sigla}}</td>
+        <td>{{estado.nome}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

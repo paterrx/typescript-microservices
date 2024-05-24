@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<div class="container mt-5">
+  <h2 class="mb-4 text-center display-3">Chat Service</h2>
+
+  <div class="card bg-secondary">
+    <div class="card-body border rounded-2">
+      <div class="chat-messages p-3 cardbody">
+        <div class="mb-2" *ngFor="let mensagem of mensagens">
+          <div class="badge bg-light text-wrap text-dark">
+            {{ mensagem }}
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3">
+        <textarea class="form-control text-center bg-secondary text-light" type="text" [(ngModel)]="novaMensagem" placeholder="Digite sua mensagem aqui"></textarea>
+      </div>
+      <div class="mt-3 d-flex justify-content-center">
+        <button class="btn btn-dark" (click)="enviarMensagem()">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>

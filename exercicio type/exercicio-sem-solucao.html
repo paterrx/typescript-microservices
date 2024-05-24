@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <style>
+    .esconderElemento {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Exercício</h2>
+  <ul>
+    <li>1 - Incluir uma máscara no telefone</li>
+    <li>
+      2 - Ao escolher o estado, consumir o endpoint do IBGE para trazer os
+      municipios, após escolha do estado.
+      https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/municipios
+    </li>
+    <li>3 - Criar o CRUD completo salvando no localstorage</li>
+  </ul>
+  <p>
+    <label for="matricula">Qual a sua matrícula:</label>
+    <input type="text" id="idMatricula" name="idMatricula" required />
+  </p>
+  <p>
+    <label for="telefone">Telefone:</label>
+    <input onkeyup="formatarNumero()" type="text" id="idTelefone" name="idTelefone" required />
+  </p>
+  <p>
+    <label for="estado">Estado:</label>
+    <select id="estado" onchange="buscarMunicipios()">
+      <option value="">Selecione o estado</option>
+      <option value="SP">São Paulo</option>
+      <option value="AC">Acre</option>
+      <option value="AL">Alagoas</option>
+      <option value="AP">Amapá</option>
+      <option value="RJ">Rio de Janeiro</option>
+    </select>
+  </p>
+  <p>
+    <label for="municipio">municipios:</label>
+    <select id="municipio">
+
+    </select>
+  </p>
+  <label for="tipo">Deseja fazer upgrade do veículo?</label>
+  <p>
+    <input onclick="upgrade(false)" type="radio" id="upgrade" name="upgrade" value="true" />Sim
+    <input onclick="upgrade(true)" checked type="radio" id="upgrade" name="upgrade" value="false" />Não
+  </p>
+  <div id="veiculosUpgrade" class="esconderElemento"></div>
+    <h2>Veículos de upgrade</h2>
+    <input type="radio" id="veiculo" name="veiculo" value="creta" /> Creta
+    <input type="radio" id="veiculo" name="veiculo" value="tracker" />Tracker
+    <input type="radio" id="veiculo" name="veiculo" value="tcross" />T-cross
+    <input type="radio" id="veiculo" name="veiculo" value="renegade" />Renegade
+  </div>
+  <div id="veiculosPadrao"></div>
+    <h2>Veículos padrão</h2>
+    <input type="radio" id="veiculo" name="veiculo" value="Cronos Drive" /> Cronos Drive
+    <input type="radio" id="veiculo" name="veiculo" value="onix" /> Onix
+    <input type="radio" id="veiculo" name="veiculo" value="onix-plus" />Onix Plus 
+    <input type="radio" id="veiculo" name="veiculo" value="hb20s" /> HB20S
+  </div>
+
+  <input value="Salvar" type="button" onclick="save()" />
+
+  <script src="correcao.js"></script>
+</body>
+
+</html>

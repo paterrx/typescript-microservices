@@ -1,0 +1,9 @@
+.cardbody {
+  height: 300px;
+  overflow-y: auto;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}

@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "dJaefaSSa249aiLbKOlhxUS0GudlmFnooOq84s97MKmWJYQODex7oevCm10owOAcIQQQH3UbeZwEgOO86+sBvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\funex\\Documents\\Organizacao\\faculdade\\3sir\\microservices\\checkpoints\\web-app-usuario\\web-app-usuario.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\funex\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.5\\microsoft.data.sqlite.core.8.0.5.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlcipher\\2.1.8\\sqlitepclraw.bundle_e_sqlcipher.2.1.8.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\sqlitepclraw.lib.e_sqlcipher\\2.1.8\\sqlitepclraw.lib.e_sqlcipher.2.1.8.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\sqlitepclraw.provider.e_sqlcipher\\2.1.8\\sqlitepclraw.provider.e_sqlcipher.2.1.8.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\funex\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
